@@ -11,7 +11,12 @@
         }
       ],
       "UpstreamPathTemplate": "/user/{everything}",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ]
     },
     {
       "RouteName": "AuthService",
@@ -24,7 +29,12 @@
         }
       ],
       "UpstreamPathTemplate": "/auth/{everything}",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ]
     },
     {
       "RouteName": "DeleteHistorial",
@@ -37,7 +47,9 @@
         }
       ],
       "UpstreamPathTemplate": "/DeleteHistorial",
-      "UpstreamHttpMethod": [ "GET" ]
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
     },
     {
       "RouteName": "TicketsService",
@@ -50,7 +62,12 @@
         }
       ],
       "UpstreamPathTemplate": "/api/tickets/{everything}",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ]
     },
     {
       "RouteName": "TicketsHealth",
@@ -63,10 +80,12 @@
         }
       ],
       "UpstreamPathTemplate": "/tickets/health",
-      "UpstreamHttpMethod": [ "GET" ]
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
     },
     {
-      "RouteName": "StationsService",
+      "RouteName": "StationsService-Read",
       "DownstreamPathTemplate": "/stations/{everything}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
@@ -76,7 +95,31 @@
         }
       ],
       "UpstreamPathTemplate": "/stations/{everything}",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "RouteName": "StationsService-Write",
+      "DownstreamPathTemplate": "/stations/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "perla-metro-stations-service-eqda.onrender.com",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/stations/{everything}",
+      "UpstreamHttpMethod": [ "POST", "PUT", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "role": "Admin"
+      }
     }
   ],
   "GlobalConfiguration": {
