@@ -1,0 +1,46 @@
+{
+  "Routes": [
+    {
+      "RouteName": "UserService",
+      "DownstreamPathTemplate": "/user/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "perla-metro-userservice.onrender.com",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "RouteName": "AuthService",
+      "DownstreamPathTemplate": "/auth/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "perla-metro-userservice.onrender.com",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/auth/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "RouteName": "DeleteHistorial",
+      "DownstreamPathTemplate": "/DeleteHistorial",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "perla-metro-userservice.onrender.com",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/DeleteHistorial",
+      "UpstreamHttpMethod": [ "GET" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5000"
+  }
+}

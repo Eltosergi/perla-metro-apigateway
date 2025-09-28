@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Y8BLJClqLT1LnTfA698z3ixQ11EBJz2FSfmC7FY0Jgk=",
+  "Source": "perla-metro-ApiGateway",
+  "BasePath": "_content/perla-metro-ApiGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
