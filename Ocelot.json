@@ -38,6 +38,32 @@
       ],
       "UpstreamPathTemplate": "/DeleteHistorial",
       "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "RouteName": "TicketsService",
+      "DownstreamPathTemplate": "/api/tickets/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "perla-metro-tickets-service.onrender.com",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/api/tickets/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "RouteName": "TicketsHealth",
+      "DownstreamPathTemplate": "/health",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "perla-metro-tickets-service.onrender.com",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/tickets/health",
+      "UpstreamHttpMethod": [ "GET" ]
     }
   ],
   "GlobalConfiguration": {

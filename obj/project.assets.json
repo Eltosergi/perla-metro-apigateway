@@ -822,19 +822,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Serpa\\.nuget\\packages\\": {}
+    "C:\\Users\\ronal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Serpa\\Desktop\\perla-metro-ApiGateway\\perla-metro-ApiGateway.csproj",
+      "projectUniqueName": "C:\\Users\\ronal\\OneDrive\\Escritorio\\ApiGateway\\perla-metro-apigateway\\perla-metro-ApiGateway.csproj",
       "projectName": "perla-metro-ApiGateway",
-      "projectPath": "C:\\Users\\Serpa\\Desktop\\perla-metro-ApiGateway\\perla-metro-ApiGateway.csproj",
-      "packagesPath": "C:\\Users\\Serpa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Serpa\\Desktop\\perla-metro-ApiGateway\\obj\\",
+      "projectPath": "C:\\Users\\ronal\\OneDrive\\Escritorio\\ApiGateway\\perla-metro-apigateway\\perla-metro-ApiGateway.csproj",
+      "packagesPath": "C:\\Users\\ronal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ronal\\OneDrive\\Escritorio\\ApiGateway\\perla-metro-apigateway\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Serpa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ronal\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -858,7 +858,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -892,7 +892,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.110/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("perla-metro-ApiGateway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcb74a1ab55551eeb5a32061564bef7c89db8d83")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+405d418575e95bde0071a0be3fffb3094293d5ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("perla-metro-ApiGateway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("perla-metro-ApiGateway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
