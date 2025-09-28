@@ -64,6 +64,19 @@
       ],
       "UpstreamPathTemplate": "/tickets/health",
       "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "RouteName": "StationsService",
+      "DownstreamPathTemplate": "/stations/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "perla-metro-stations-service-eqda.onrender.com",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/stations/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
     }
   ],
   "GlobalConfiguration": {
