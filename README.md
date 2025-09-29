@@ -37,20 +37,26 @@ El sistema sigue una **arquitectura de monolito distribuido con SOA**, donde:
 
 ## 📡 Endpoints Disponibles
 
-### 🔐 Autenticación (Públicos)
-```http
-POST /auth/register
-POST /auth/login
-```
 
 ### 👥 Users Service
 ```http
-TBD
+POST /user/register
+POST /user/login
+GET /user/all
+GET /user/{id}
+DELETE /user/{id}
+PUT /user/Update
+GET /DeleteHistorial
 ```
 
 ### 🎫 Tickets Service
 ```http
-TBD
+GET /api/tickets
+GET /api/tickets/{id}
+POST /api/tickets
+PUT /api/tickets/{id}
+DELETE /api/tickets/{id}
+GET /tickets/health
 ```
 
 ### 🛤️ Routes Service
@@ -67,7 +73,7 @@ PUT    /stations/{id}
 DELETE /stations/{id}
 ```
 
-Los endpoints se encuentran más detallados en el **[Manual de usuario](https://drive.google.com/file/d/1ApDwtLeW1x6od39VJt63LNTtHS3Nujnb/view?usp=sharing)**
+Los endpoints se encuentran más detallados en el **[Manual de usuario](https://drive.google.com/file/d/1CDDhkeJxtLfps_gMXVOf-LqP1Wp3ixn8)**
 
 ---
 
@@ -153,4 +159,5 @@ Authorization: Bearer <tu-token-jwt>
 Este proyecto es desarrollado para fines académicos en el contexto del Taller de Arquitectura de Sistemas de la Universidad Católica del Norte.
 
 ---
+
 
