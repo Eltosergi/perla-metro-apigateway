@@ -52,6 +52,21 @@
       ]
     },
     {
+      "RouteName": "UserHealth",
+      "DownstreamPathTemplate": "/health/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "perla-metro-userservice.onrender.com",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/user/health/{everything}",
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
+    },
+    {
       "RouteName": "TicketsService",
       "DownstreamPathTemplate": "/api/tickets/{everything}",
       "DownstreamScheme": "https",

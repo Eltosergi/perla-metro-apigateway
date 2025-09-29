@@ -47,6 +47,7 @@ GET /user/{id}
 DELETE /user/{id}
 PUT /user/Update
 GET /DeleteHistorial
+GET /health
 ```
 
 ### 🎫 Tickets Service
@@ -80,7 +81,7 @@ PUT    /stations/{id}
 DELETE /stations/{id}
 ```
 
-Los endpoints se encuentran más detallados en el **[Manual de usuario](https://drive.google.com/file/d/1CDDhkeJxtLfps_gMXVOf-LqP1Wp3ixn8)**
+Los endpoints se encuentran más detallados en el **[Manual de usuario](https://drive.google.com/file/d/1zGKprDLWonnbHCrnyt8xDYySTNcOqb1_/view?usp=sharing)**
 
 ---
 
