@@ -120,7 +120,70 @@
       "RouteClaimsRequirement": {
         "http://schemas.microsoft.com/ws/2008/06/identity/claims/role": "Admin"
       }
+    },
+    {
+  "RouteName": "RoutesService-Read",
+  "DownstreamPathTemplate": "/routes/{everything}",
+  "DownstreamScheme": "https",
+  "DownstreamHostAndPorts": [
+    {
+      "Host": "perla-metro-route-service-32dq.onrender.com",
+      "Port": 443
     }
+  ],
+  "UpstreamPathTemplate": "/routes/{everything}",
+  "UpstreamHttpMethod": ["GET"],
+  "AuthenticationOptions": {
+    "AuthenticationProviderKey": "Bearer",
+    "AllowedScopes": []
+  }
+},
+{
+  "RouteName": "RoutesService-Write",
+  "DownstreamPathTemplate": "/routes/{everything}",
+  "DownstreamScheme": "https",
+  "DownstreamHostAndPorts": [
+    {
+      "Host": "perla-metro-route-service-32dq.onrender.com",
+      "Port": 443
+    }
+  ],
+  "UpstreamPathTemplate": "/routes/{everything}",
+  "UpstreamHttpMethod": ["POST", "PUT", "DELETE", "PATCH"],
+  "AuthenticationOptions": {
+    "AuthenticationProviderKey": "Bearer",
+    "AllowedScopes": []
+  },
+  "RouteClaimsRequirement": {
+    "http://schemas.microsoft.com/ws/2008/06/identity/claims/role": "Admin"
+  }
+},
+{
+  "RouteName": "RoutesHealth",
+  "DownstreamPathTemplate": "/health",
+  "DownstreamScheme": "https",
+  "DownstreamHostAndPorts": [
+    {
+      "Host": "perla-metro-route-service-32dq.onrender.com",
+      "Port": 443
+    }
+  ],
+  "UpstreamPathTemplate": "/routes/health",
+  "UpstreamHttpMethod": ["GET"]
+},
+{
+  "RouteName": "RoutesStats",
+  "DownstreamPathTemplate": "/stats",
+  "DownstreamScheme": "https",
+  "DownstreamHostAndPorts": [
+    {
+      "Host": "perla-metro-route-service-32dq.onrender.com",
+      "Port": 443
+    }
+  ],
+  "UpstreamPathTemplate": "/routes/stats",
+  "UpstreamHttpMethod": ["GET"]
+}
   ],
   "GlobalConfiguration": {
     "BaseUrl": "https://localhost:5000"
