@@ -79,7 +79,7 @@ Los endpoints se encuentran más detallados en el **[Manual de usuario](https://
 ### Ejecución Local
 ```bash
 # Clonar repositorio
-git clone https://github.com/tu-usuario/perla-metro-apigateway.git
+git clone https://github.com/Eltosergi/perla-metro-apigateway.git
 cd perla-metro-apigateway
 
 # Restaurar dependencias
@@ -153,3 +153,4 @@ Authorization: Bearer <tu-token-jwt>
 Este proyecto es desarrollado para fines académicos en el contexto del Taller de Arquitectura de Sistemas de la Universidad Católica del Norte.
 
 ---
+
