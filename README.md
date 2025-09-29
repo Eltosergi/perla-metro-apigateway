@@ -47,7 +47,7 @@ GET /user/{id}
 DELETE /user/{id}
 PUT /user/Update
 GET /DeleteHistorial
-GET /health
+GET /user/health
 ```
 
 ### 🎫 Tickets Service
