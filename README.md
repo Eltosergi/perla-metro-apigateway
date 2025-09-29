@@ -61,7 +61,14 @@ GET /tickets/health
 
 ### 🛤️ Routes Service
 ```http
-TBD
+GET /routes                    # Listar rutas con filtros
+GET /routes/{id}               # Obtener ruta por ID
+POST /routes                   # Crear nueva ruta (Admin)
+PATCH /routes/{id}             # Actualizar ruta (Admin)
+DELETE /routes/{id}            # Eliminar ruta - soft delete (Admin)
+GET /routes/search             # Buscar rutas por texto
+GET /routes/health             # Health check del servicio
+GET /routes/stats              # Estadísticas de rutas
 ```
 
 ### 🚉 Stations Service
