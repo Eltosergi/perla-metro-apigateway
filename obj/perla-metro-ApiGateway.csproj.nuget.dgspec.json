@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Taller1APIMain\\perla-metro-apigateway\\perla-metro-ApiGateway.csproj": {}
+    "C:\\Users\\Serpa\\Desktop\\perla-metro-ApiGateway\\perla-metro-ApiGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Taller1APIMain\\perla-metro-apigateway\\perla-metro-ApiGateway.csproj": {
+    "C:\\Users\\Serpa\\Desktop\\perla-metro-ApiGateway\\perla-metro-ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Taller1APIMain\\perla-metro-apigateway\\perla-metro-ApiGateway.csproj",
+        "projectUniqueName": "C:\\Users\\Serpa\\Desktop\\perla-metro-ApiGateway\\perla-metro-ApiGateway.csproj",
         "projectName": "perla-metro-ApiGateway",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Taller1APIMain\\perla-metro-apigateway\\perla-metro-ApiGateway.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Taller1APIMain\\perla-metro-apigateway\\obj\\",
+        "projectPath": "C:\\Users\\Serpa\\Desktop\\perla-metro-ApiGateway\\perla-metro-ApiGateway.csproj",
+        "packagesPath": "C:\\Users\\Serpa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Serpa\\Desktop\\perla-metro-ApiGateway\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Serpa\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.110/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

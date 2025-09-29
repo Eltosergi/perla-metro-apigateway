@@ -67,7 +67,7 @@ PUT    /stations/{id}
 DELETE /stations/{id}
 ```
 
-Los endpoints se encuentran más detallados en el **[Manual de usuario](https://drive.google.com/file/d/1CDDhkeJxtLfps_gMXVOf-LqP1Wp3ixn8/)**
+Los endpoints se encuentran más detallados en el **[Manual de usuario](https://drive.google.com/file/d/1ApDwtLeW1x6od39VJt63LNTtHS3Nujnb/view?usp=sharing)**
 
 ---
 
